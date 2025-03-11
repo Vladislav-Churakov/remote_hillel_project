@@ -1,0 +1,280 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      \x91\xa1\xaeઠ \xad\xa0\xe7\xa0\xe2\xa0 11.03.2025 21:44:01.
+      
+      \x8f஥\xaa\xe2 "C:\\Hillel_school_c++_pro\\Hillel_lesson_18\\app_lib_solution\\build\\CMakeFiles\\3.31.5\\CompilerIdC\\CompilerIdC.vcxproj" \xa2 㧫\xa5 1 (楫\xa5\xa2\xeb\xa5 \xae\xa1ꥪ\xe2\xeb \xaf\xae 㬮\xab砭\xa8\xee).
+      PrepareForBuild:
+        \x91\xae\xa7\xa4\xa0\xad\xa8\xa5 \xaa\xa0⠫\xae\xa3\xa0 "Debug\\".
+        \x91\xae\xa7\xa4\xa0\xad\xa8\xa5 \xaa\xa0⠫\xae\xa3\xa0 "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        \x91\xae\xa7\xa4\xa0\xad\xa8\xa5 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", ⠪ \xaa\xa0\xaa \xa1뫮 \xa7\xa0\xa4\xa0\xad\xae "AlwaysCreate".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Hillel_school_c++_pro\\Hillel_lesson_18\\app_lib_solution\\build\\CMakeFiles\\3.31.5\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        \x94\xa0\xa9\xab "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" 㤠\xab\xef\xa5\xe2\xe1\xef.
+        \x8e\xa1\xe0\xa0饭\xa8\xa5 \xaa "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      \x91\xa1\xaeઠ \xaf஥\xaa\xe2\xa0 "C:\\Hillel_school_c++_pro\\Hillel_lesson_18\\app_lib_solution\\build\\CMakeFiles\\3.31.5\\CompilerIdC\\CompilerIdC.vcxproj" \xa7\xa0\xa2\xa5\xe0襭\xa0 (楫\xa5\xa2\xeb\xa5 \xae\xa1ꥪ\xe2\xeb \xaf\xae 㬮\xab砭\xa8\xee).
+      
+      \x91\xa1\xaeઠ \xe3ᯥ譮 \xa7\xa0\xa2\xa5\xe0襭\xa0.
+          \x8f।\xe3\xaf०\xa4\xa5\xad\xa8\xa9: 0
+          \x8e訡\xae\xaa: 0
+      
+      \x8f\xe0\xae諮 \xa2६\xa5\xad\xa8 00:00:00.78
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Hillel_school_c++_pro/Hillel_lesson_18/app_lib_solution/build/CMakeFiles/3.31.5/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      \x91\xa1\xaeઠ \xad\xa0\xe7\xa0\xe2\xa0 11.03.2025 21:44:02.
+      
+      \x8f஥\xaa\xe2 "C:\\Hillel_school_c++_pro\\Hillel_lesson_18\\app_lib_solution\\build\\CMakeFiles\\3.31.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" \xa2 㧫\xa5 1 (楫\xa5\xa2\xeb\xa5 \xae\xa1ꥪ\xe2\xeb \xaf\xae 㬮\xab砭\xa8\xee).
+      PrepareForBuild:
+        \x91\xae\xa7\xa4\xa0\xad\xa8\xa5 \xaa\xa0⠫\xae\xa3\xa0 "Debug\\".
+        \x91\xae\xa7\xa4\xa0\xad\xa8\xa5 \xaa\xa0⠫\xae\xa3\xa0 "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        \x91\xae\xa7\xa4\xa0\xad\xa8\xa5 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", ⠪ \xaa\xa0\xaa \xa1뫮 \xa7\xa0\xa4\xa0\xad\xae "AlwaysCreate".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Hillel_school_c++_pro\\Hillel_lesson_18\\app_lib_solution\\build\\CMakeFiles\\3.31.5\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        \x94\xa0\xa9\xab "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" 㤠\xab\xef\xa5\xe2\xe1\xef.
+        \x8e\xa1\xe0\xa0饭\xa8\xa5 \xaa "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      \x91\xa1\xaeઠ \xaf஥\xaa\xe2\xa0 "C:\\Hillel_school_c++_pro\\Hillel_lesson_18\\app_lib_solution\\build\\CMakeFiles\\3.31.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" \xa7\xa0\xa2\xa5\xe0襭\xa0 (楫\xa5\xa2\xeb\xa5 \xae\xa1ꥪ\xe2\xeb \xaf\xae 㬮\xab砭\xa8\xee).
+      
+      \x91\xa1\xaeઠ \xe3ᯥ譮 \xa7\xa0\xa2\xa5\xe0襭\xa0.
+          \x8f।\xe3\xaf०\xa4\xa5\xad\xa8\xa9: 0
+          \x8e訡\xae\xaa: 0
+      
+      \x8f\xe0\xae諮 \xa2६\xa5\xad\xa8 00:00:00.58
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Hillel_school_c++_pro/Hillel_lesson_18/app_lib_solution/build/CMakeFiles/3.31.5/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Hillel_school_c++_pro/Hillel_lesson_18/app_lib_solution/build/CMakeFiles/CMakeScratch/TryCompile-1gi6zm"
+      binary: "C:/Hillel_school_c++_pro/Hillel_lesson_18/app_lib_solution/build/CMakeFiles/CMakeScratch/TryCompile-1gi6zm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Hillel_school_c++_pro/Hillel_lesson_18/app_lib_solution/build/CMakeFiles/CMakeScratch/TryCompile-1gi6zm'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ce4b9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 11.03.2025 21:44:03.
+        
+        Проект "C:\\Hillel_school_c++_pro\\Hillel_lesson_18\\app_lib_solution\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1gi6zm\\cmTC_ce4b9.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_ce4b9.dir\\Debug\\".
+          Создание каталога "C:\\Hillel_school_c++_pro\\Hillel_lesson_18\\app_lib_solution\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1gi6zm\\Debug\\".
+          Создание каталога "cmTC_ce4b9.dir\\Debug\\cmTC_ce4b9.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_ce4b9.dir\\Debug\\cmTC_ce4b9.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ce4b9.dir\\Debug\\\\" /Fd"cmTC_ce4b9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32537 для x64
+          CMakeCCompilerABI.c
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ce4b9.dir\\Debug\\\\" /Fd"cmTC_ce4b9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Hillel_school_c++_pro\\Hillel_lesson_18\\app_lib_solution\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1gi6zm\\Debug\\cmTC_ce4b9.exe" /INCREMENTAL /ILK:"cmTC_ce4b9.dir\\Debug\\cmTC_ce4b9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Hillel_school_c++_pro/Hillel_lesson_18/app_lib_solution/build/CMakeFiles/CMakeScratch/TryCompile-1gi6zm/Debug/cmTC_ce4b9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Hillel_school_c++_pro/Hillel_lesson_18/app_lib_solution/build/CMakeFiles/CMakeScratch/TryCompile-1gi6zm/Debug/cmTC_ce4b9.lib" /MACHINE:X64  /machine:x64 cmTC_ce4b9.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ce4b9.vcxproj -> C:\\Hillel_school_c++_pro\\Hillel_lesson_18\\app_lib_solution\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1gi6zm\\Debug\\cmTC_ce4b9.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_ce4b9.dir\\Debug\\cmTC_ce4b9.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_ce4b9.dir\\Debug\\cmTC_ce4b9.tlog\\cmTC_ce4b9.lastbuildstate".
+        Сборка проекта "C:\\Hillel_school_c++_pro\\Hillel_lesson_18\\app_lib_solution\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1gi6zm\\cmTC_ce4b9.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.36.32537.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Hillel_school_c++_pro/Hillel_lesson_18/app_lib_solution/build/CMakeFiles/CMakeScratch/TryCompile-q8zx32"
+      binary: "C:/Hillel_school_c++_pro/Hillel_lesson_18/app_lib_solution/build/CMakeFiles/CMakeScratch/TryCompile-q8zx32"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Hillel_school_c++_pro/Hillel_lesson_18/app_lib_solution/build/CMakeFiles/CMakeScratch/TryCompile-q8zx32'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f9bba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Сборка начата 11.03.2025 21:44:04.
+        
+        Проект "C:\\Hillel_school_c++_pro\\Hillel_lesson_18\\app_lib_solution\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q8zx32\\cmTC_f9bba.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_f9bba.dir\\Debug\\".
+          Создание каталога "C:\\Hillel_school_c++_pro\\Hillel_lesson_18\\app_lib_solution\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q8zx32\\Debug\\".
+          Создание каталога "cmTC_f9bba.dir\\Debug\\cmTC_f9bba.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_f9bba.dir\\Debug\\cmTC_f9bba.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f9bba.dir\\Debug\\\\" /Fd"cmTC_f9bba.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.36.32537 для x64
+          CMakeCXXCompilerABI.cpp
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f9bba.dir\\Debug\\\\" /Fd"cmTC_f9bba.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Hillel_school_c++_pro\\Hillel_lesson_18\\app_lib_solution\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q8zx32\\Debug\\cmTC_f9bba.exe" /INCREMENTAL /ILK:"cmTC_f9bba.dir\\Debug\\cmTC_f9bba.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Hillel_school_c++_pro/Hillel_lesson_18/app_lib_solution/build/CMakeFiles/CMakeScratch/TryCompile-q8zx32/Debug/cmTC_f9bba.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Hillel_school_c++_pro/Hillel_lesson_18/app_lib_solution/build/CMakeFiles/CMakeScratch/TryCompile-q8zx32/Debug/cmTC_f9bba.lib" /MACHINE:X64  /machine:x64 cmTC_f9bba.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_f9bba.vcxproj -> C:\\Hillel_school_c++_pro\\Hillel_lesson_18\\app_lib_solution\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q8zx32\\Debug\\cmTC_f9bba.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_f9bba.dir\\Debug\\cmTC_f9bba.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_f9bba.dir\\Debug\\cmTC_f9bba.tlog\\cmTC_f9bba.lastbuildstate".
+        Сборка проекта "C:\\Hillel_school_c++_pro\\Hillel_lesson_18\\app_lib_solution\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q8zx32\\cmTC_f9bba.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.61
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.36.32537.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...

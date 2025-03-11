@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "lib.dir\\MinSizeRel\\lib.obj",
+            "outputs": [
+                "lib.dir\\MinSizeRel\\"
+            ],
+            "requires": []
+        }
+    ]
+}

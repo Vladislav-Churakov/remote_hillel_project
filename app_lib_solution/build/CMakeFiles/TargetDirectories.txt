@@ -1,0 +1,4 @@
+C:/Hillel_school_c++_pro/Hillel_lesson_18/app_lib_solution/build/CMakeFiles/ALL_BUILD.dir
+C:/Hillel_school_c++_pro/Hillel_lesson_18/app_lib_solution/build/CMakeFiles/ZERO_CHECK.dir
+C:/Hillel_school_c++_pro/Hillel_lesson_18/app_lib_solution/build/src/app/CMakeFiles/app.dir
+C:/Hillel_school_c++_pro/Hillel_lesson_18/app_lib_solution/build/src/lib/CMakeFiles/lib.dir
